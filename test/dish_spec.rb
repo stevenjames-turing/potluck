@@ -1,4 +1,5 @@
 require './lib/dish'
+require './lib/potluck'
 
 RSpec.describe Dish do
   it 'has a name' do

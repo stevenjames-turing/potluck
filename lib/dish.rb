@@ -1,4 +1,5 @@
 require './lib/dish'
+require './lib/potluck'
 
 class Dish
   attr_reader :name, :category
@@ -7,4 +8,4 @@ class Dish
     @name = name
     @category = category
   end
-end 
+end
